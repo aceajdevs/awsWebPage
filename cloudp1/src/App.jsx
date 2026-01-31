@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import Navbar from './navbar.jsx'
+import Navbar from './Navbar.jsx'
 
 import Home from './pages/Home.jsx'
 import { Outlet } from "react-router";
