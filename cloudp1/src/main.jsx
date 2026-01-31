@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./App.jsx";
 import About from "./pages/About.jsx";
 import Home from "./pages/Home.jsx";
+import { Amplify } from 'aws-amplify';
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
